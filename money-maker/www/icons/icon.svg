@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a1a"/>
+      <stop offset="100%" style="stop-color:#0a0a0a"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFD700"/>
+      <stop offset="50%" style="stop-color:#FFA500"/>
+      <stop offset="100%" style="stop-color:#FFD700"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- 背景 -->
+  <rect width="512" height="512" rx="80" fill="url(#bg)"/>
+  
+  <!-- 金币外圈 -->
+  <circle cx="256" cy="220" r="140" fill="url(#gold)" stroke="#B8860B" stroke-width="8"/>
+  
+  <!-- 金币内圈 -->
+  <circle cx="256" cy="220" r="110" fill="none" stroke="#B8860B" stroke-width="4"/>
+  
+  <!-- 人民币符号 -->
+  <text x="256" y="260" text-anchor="middle" font-size="120" font-weight="bold" font-family="Arial" fill="#B8860B">¥</text>
+  
+  <!-- 上升箭头 -->
+  <path d="M256 400 L200 340 L230 340 L230 300 L282 300 L282 340 L312 340 Z" fill="#00C853"/>
+  
+  <!-- 闪光效果 -->
+  <ellipse cx="200" cy="180" rx="30" ry="15" fill="rgba(255,255,255,0.3)" transform="rotate(-30 200 180)"/>
+</svg>
