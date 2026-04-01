@@ -18,3 +18,20 @@ Thumbs.db
 
 # Logs
 *.log
+
+# Build scripts
+build-apk-auto.bat
+build-apk-admin.bat
+build-now.bat
+install-android-sdk.bat
+start-app.bat
+start-server.bat
+start-server.py
+qr-download.py
+
+# Server and public directories
+server/
+public/
+
+# APK files (keep only in releases)
+*.apk
